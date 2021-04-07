@@ -16,7 +16,7 @@ export const Inner = styled.div`
 
 export const Item = styled.div`
   display: flex;
-  padding: 50px 5%;
+  padding: 90px 5%;
   color: white;
   overflow: hidden;
   border-bottom: 8px solid #222;
@@ -24,6 +24,7 @@ export const Item = styled.div`
 
 export const Pane = styled.div`
   width: 50%;
+  margin-top: 50px;
 
   @media (max-width: 1000px) {
     width: 100%;

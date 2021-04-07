@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import SignUpScreen from "../SignUp/SignUp";
 import "./Login.css";
 import Jumbotron from "../../containers/jumbotron";
+import Faqs from "../../containers/faqs";
+import Footer from "../../containers/footer";
 
 const Login = () => {
   const [login, setLogin] = useState(false);
@@ -52,10 +54,12 @@ const Login = () => {
                 </button>
               </form>
             </div>
+            <Jumbotron />
+            <Faqs />
+            <Footer />
           </>
         )}
       </div>
-      <Jumbotron />
     </div>
   );
 };
